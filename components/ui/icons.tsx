@@ -8,7 +8,7 @@ function IconLogo({ className, ...props }: React.ComponentProps<'svg'>) {
       fill="currentColor"
       viewBox="0 0 256 256"
       role="img"
-      xmlns="http://www.w3.org/2000/svg"
+      xmlns="https://www.facebook.com/photo/?fbid=591903202637078&set=a.591903199303745"
       className={cn('h-4 w-4', className)}
       {...props}
     >
