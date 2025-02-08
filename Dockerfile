@@ -1,15 +1,4 @@
-
-FROM oven/bun:1.1.3-alpine
-
-RUN apk add --no-cache nodejs npm git
-
-WORKDIR /app
-
-COPY package.json bun.lockb ./
-RUN bun install
-
-COPY . .
-
-RUN bun next telemetry disable
-
-CMD ["bun", "dev", "-H", "0.0.0.0"]
+FROM docker/whalesay:latest
+LABEL Name=techimo Version=0.0.1
+RUN apt-get -y update && apt-get install -y fortunes
+CMD ["sh", "-c", "/usr/games/fortune -a | cowsay"]

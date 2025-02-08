@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  techimo:
+    image: techimo
+    build:
+      context: .
+      dockerfile: ./Dockerfile
