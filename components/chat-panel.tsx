@@ -83,9 +83,6 @@ export function ChatPanel({
           <IconLogo className="size-12 text-muted-foreground" />
         </div>
       )}
-      <div className="text-center mb-4"> {/* Add this div */}
-        The best AI agent to find leads & targeted business information
-      </div>
       <form
         onSubmit={handleSubmit}
         className={cn(
