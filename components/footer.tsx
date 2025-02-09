@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
           className="text-muted-foreground/50"
         >
           <Link href="https://www.linkedin.com/company/techimotransformations/" target="_blank">
-            <SiLinkedin size={18} />
+            <import { SiLinkedin } from 'react-icons/si'; size={18} />
           </Link>
         </Button>
         <Button
