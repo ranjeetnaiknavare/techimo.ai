@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import { SiGithub, SiX } from 'react-icons/si'
+import { SiDiscord, SiGithub, SiX } from 'react-icons/si'
 import { Button } from './ui/button'
 
 const Footer: React.FC = () => {
@@ -12,8 +12,17 @@ const Footer: React.FC = () => {
           size={'icon'}
           className="text-muted-foreground/50"
         >
-          <Link href="https://www.linkedin.com/company/techimotransformations/" target="_blank">
-            <import { SiLinkedin } from 'react-icons/si'; size={18} />
+          <Link href="https://discord.gg/zRxaseCuGq" target="_blank">
+            <SiDiscord size={18} />
+          </Link>
+        </Button>
+        <Button
+          variant={'ghost'}
+          size={'icon'}
+          className="text-muted-foreground/50 hidden"
+        >
+          <Link href="https://discord.gg/zRxaseCuGq" target="_blank">
+            <SiDiscord size={18} />
           </Link>
         </Button>
         <Button
