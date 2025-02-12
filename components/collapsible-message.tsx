@@ -38,7 +38,7 @@ export function CollapsibleMessage({
             (role === 'user' ? (
               <UserCircle2 size={20} className="text-muted-foreground" />
             ) : (
-              <img src="/app/favicon.icon" alt="Favicon" className="size-5" />
+              <img src="/app/favicon.png" alt="Favicon" className="size-5" />
             ))}
         </div>
       </div>
