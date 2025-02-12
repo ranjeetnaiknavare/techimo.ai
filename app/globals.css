@@ -97,3 +97,6 @@
     @apply bg-background text-foreground;
   }
 }
+.size-12 {
+  width: 10rem !important;
+}
