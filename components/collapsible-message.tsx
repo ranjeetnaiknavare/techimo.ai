@@ -5,7 +5,6 @@ import {
   CollapsibleContent,
   CollapsibleTrigger
 } from './ui/collapsible'
-import { IconLogo } from './ui/icons'
 import { Separator } from './ui/separator'
 
 interface CollapsibleMessageProps {
@@ -39,7 +38,7 @@ export function CollapsibleMessage({
             (role === 'user' ? (
               <UserCircle2 size={20} className="text-muted-foreground" />
             ) : (
-              <IconLogo className="size-5" />
+              <img src="/app/favicon.icon" alt="Favicon" className="size-5" />
             ))}
         </div>
       </div>
